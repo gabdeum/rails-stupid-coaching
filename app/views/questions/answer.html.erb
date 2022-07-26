@@ -1,0 +1,16 @@
+<ol class="list-group mt-4 mb-4">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold"><%= @question %></div>
+      - You
+    </div>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold"><%= @answer %></div>
+      - Your coach
+    </div>
+  </li>
+</ol>
+
+<%= link_to "Ask another question", ask_path %>
